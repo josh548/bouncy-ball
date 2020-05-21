@@ -1,0 +1,24 @@
+{
+  "name": "bouncy-ball",
+  "version": "1.0.0",
+  "description": "Bouncy ball with gravity, collision detection, and friction using HTML Canvas",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escamilla/bouncy-ball.git"
+  },
+  "author": "Joshua Escamilla <joshua.escamilla@selu.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/escamilla/bouncy-ball/issues"
+  },
+  "homepage": "https://github.com/escamilla/bouncy-ball#readme",
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  }
+}
