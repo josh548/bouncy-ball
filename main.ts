@@ -4,9 +4,9 @@ canvas.height = window.innerHeight;
 
 const context: CanvasRenderingContext2D = canvas.getContext("2d") as CanvasRenderingContext2D;
 
-const gravity: number = 0.5;
-const bounceFactor: number = 0.8;
-const frictionFactor: number = 0.995;
+const gravity = 0.5;
+const bounceFactor = 0.8;
+const frictionFactor = 0.995;
 
 class Ball {
     public cx: number;
